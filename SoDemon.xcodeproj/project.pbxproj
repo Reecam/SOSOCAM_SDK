@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98885B1E1DC08BA000764DF8 /* IPCamCp.m in Sources */ = {isa = PBXBuildFile; fileRef = 98885B1D1DC08BA000764DF8 /* IPCamCp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74107F711C97F02100DC12FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74107F4F1C97F02000DC12FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74107F561C97F02100DC12FE;
+			remoteInfo = SoDemon;
+		};
+		74107F7C1C97F02100DC12FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74107F4F1C97F02000DC12FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74107F561C97F02100DC12FE;
+			remoteInfo = SoDemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74107F571C97F02100DC12FE /* SoDemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoDemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74107F701C97F02100DC12FE /* SoDemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoDemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74107F7B1C97F02100DC12FE /* SoDemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoDemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9865124D1CE9B3E1007D8F92 /* IPCam+IPCamVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IPCam+IPCamVideo.h"; sourceTree = "<group>"; };
+		9865124E1CE9B3E1007D8F92 /* IPCamMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCamMgr.h; sourceTree = "<group>"; };
+		9865124F1CE9B3E1007D8F92 /* SDK总说明.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDK总说明.h"; sourceTree = "<group>"; };
+		986512501CE9B3E1007D8F92 /* SoundWave+WiFiMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoundWave+WiFiMatching.h"; sourceTree = "<group>"; };
+		986512511CE9B3E1007D8F92 /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		986512521CE9B3E1007D8F92 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		986512531CE9B3E1007D8F92 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		986512541CE9B412007D8F92 /* 串口读写操作.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "串口读写操作.h"; sourceTree = "<group>"; };
+		986512571CE9B424007D8F92 /* 用户权限设置.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "用户权限设置.h"; sourceTree = "<group>"; };
+		9865125A1CE9B528007D8F92 /* 喂食器操作.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "喂食器操作.h"; sourceTree = "<group>"; };
+		98885B1C1DC08BA000764DF8 /* IPCamCp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCamCp.h; sourceTree = "<group>"; };
+		98885B1D1DC08BA000764DF8 /* IPCamCp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPCamCp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74107F541C97F02100DC12FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F6D1C97F02100DC12FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F781C97F02100DC12FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74107F4E1C97F02000DC12FE = {
+			isa = PBXGroup;
+			children = (
+				986512471CE9B1D9007D8F92 /* 客户定制需求 */,
+				9865124B1CE9B3E1007D8F92 /* SDK操作说明 */,
+				74107F581C97F02100DC12FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74107F581C97F02100DC12FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74107F571C97F02100DC12FE /* SoDemon.app */,
+				74107F701C97F02100DC12FE /* SoDemonTests.xctest */,
+				74107F7B1C97F02100DC12FE /* SoDemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986512471CE9B1D9007D8F92 /* 客户定制需求 */ = {
+			isa = PBXGroup;
+			children = (
+				9865125A1CE9B528007D8F92 /* 喂食器操作.h */,
+				986512541CE9B412007D8F92 /* 串口读写操作.h */,
+				986512571CE9B424007D8F92 /* 用户权限设置.h */,
+			);
+			path = "客户定制需求";
+			sourceTree = "<group>";
+		};
+		9865124B1CE9B3E1007D8F92 /* SDK操作说明 */ = {
+			isa = PBXGroup;
+			children = (
+				9865124F1CE9B3E1007D8F92 /* SDK总说明.h */,
+				9865124E1CE9B3E1007D8F92 /* IPCamMgr.h */,
+				9865124D1CE9B3E1007D8F92 /* IPCam+IPCamVideo.h */,
+				986512501CE9B3E1007D8F92 /* SoundWave+WiFiMatching.h */,
+				986512511CE9B3E1007D8F92 /* Storage.h */,
+				986512521CE9B3E1007D8F92 /* Util.h */,
+				986512531CE9B3E1007D8F92 /* WebService.h */,
+				98885B1C1DC08BA000764DF8 /* IPCamCp.h */,
+				98885B1D1DC08BA000764DF8 /* IPCamCp.m */,
+			);
+			path = "SDK操作说明";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74107F561C97F02100DC12FE /* SoDemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F841C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemon" */;
+			buildPhases = (
+				74107F531C97F02100DC12FE /* Sources */,
+				74107F541C97F02100DC12FE /* Frameworks */,
+				74107F551C97F02100DC12FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoDemon;
+			productName = SoDemon;
+			productReference = 74107F571C97F02100DC12FE /* SoDemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74107F6F1C97F02100DC12FE /* SoDemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F871C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemonTests" */;
+			buildPhases = (
+				74107F6C1C97F02100DC12FE /* Sources */,
+				74107F6D1C97F02100DC12FE /* Frameworks */,
+				74107F6E1C97F02100DC12FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74107F721C97F02100DC12FE /* PBXTargetDependency */,
+			);
+			name = SoDemonTests;
+			productName = SoDemonTests;
+			productReference = 74107F701C97F02100DC12FE /* SoDemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74107F7A1C97F02100DC12FE /* SoDemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F8A1C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemonUITests" */;
+			buildPhases = (
+				74107F771C97F02100DC12FE /* Sources */,
+				74107F781C97F02100DC12FE /* Frameworks */,
+				74107F791C97F02100DC12FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74107F7D1C97F02100DC12FE /* PBXTargetDependency */,
+			);
+			name = SoDemonUITests;
+			productName = SoDemonUITests;
+			productReference = 74107F7B1C97F02100DC12FE /* SoDemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74107F4F1C97F02000DC12FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = feng;
+				TargetAttributes = {
+					74107F561C97F02100DC12FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					74107F6F1C97F02100DC12FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74107F561C97F02100DC12FE;
+					};
+					74107F7A1C97F02100DC12FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74107F561C97F02100DC12FE;
+					};
+				};
+			};
+			buildConfigurationList = 74107F521C97F02000DC12FE /* Build configuration list for PBXProject "SoDemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74107F4E1C97F02000DC12FE;
+			productRefGroup = 74107F581C97F02100DC12FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74107F561C97F02100DC12FE /* SoDemon */,
+				74107F6F1C97F02100DC12FE /* SoDemonTests */,
+				74107F7A1C97F02100DC12FE /* SoDemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74107F551C97F02100DC12FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F6E1C97F02100DC12FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F791C97F02100DC12FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74107F531C97F02100DC12FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98885B1E1DC08BA000764DF8 /* IPCamCp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F6C1C97F02100DC12FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107F771C97F02100DC12FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74107F721C97F02100DC12FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74107F561C97F02100DC12FE /* SoDemon */;
+			targetProxy = 74107F711C97F02100DC12FE /* PBXContainerItemProxy */;
+		};
+		74107F7D1C97F02100DC12FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74107F561C97F02100DC12FE /* SoDemon */;
+			targetProxy = 74107F7C1C97F02100DC12FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74107F821C97F02100DC12FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74107F831C97F02100DC12FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74107F851C97F02100DC12FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoDemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74107F861C97F02100DC12FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoDemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74107F881C97F02100DC12FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoDemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoDemon.app/SoDemon";
+			};
+			name = Debug;
+		};
+		74107F891C97F02100DC12FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoDemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoDemon.app/SoDemon";
+			};
+			name = Release;
+		};
+		74107F8B1C97F02100DC12FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoDemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoDemon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74107F8C1C97F02100DC12FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoDemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.SoDemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoDemon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74107F521C97F02000DC12FE /* Build configuration list for PBXProject "SoDemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F821C97F02100DC12FE /* Debug */,
+				74107F831C97F02100DC12FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F841C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F851C97F02100DC12FE /* Debug */,
+				74107F861C97F02100DC12FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F871C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F881C97F02100DC12FE /* Debug */,
+				74107F891C97F02100DC12FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F8A1C97F02100DC12FE /* Build configuration list for PBXNativeTarget "SoDemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F8B1C97F02100DC12FE /* Debug */,
+				74107F8C1C97F02100DC12FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74107F4F1C97F02000DC12FE /* Project object */;
+}
